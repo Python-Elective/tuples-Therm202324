@@ -1,5 +1,4 @@
-def skip_tuples(input_tuple):
-    """
+"""
 Skip every second element in the input tuple, starting with the first one.
 Parameters:
 input_tuple (tuple): The input tuple to process.
@@ -8,9 +7,8 @@ Returns:
 Example:
 skip_tuples(('I', 'am', 'a', 'test', 'tuple'))
 ('I', 'a', 'tuple')
-    """
-
-
+"""
+def skip_tuples(input_tuple):
     return input_tuple[::2]
 
 def main():
