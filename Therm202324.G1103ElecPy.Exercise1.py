@@ -9,7 +9,9 @@ skip_tuples(('I', 'am', 'a', 'test', 'tuple'))
 ('I', 'a', 'tuple')
 """
 def skip_tuples(input_tuple):
-    return input_tuple[::2]
+    new = input_tuple[::2]
+    return new
+# return input_tuple[::2]
 
 def main():
 
