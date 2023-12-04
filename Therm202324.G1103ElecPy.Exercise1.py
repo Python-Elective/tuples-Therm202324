@@ -1,6 +1,9 @@
 """
-Skip every second element in the input tuple, starting with the first one.
-Parameters:
+Write a function called skip_tuples. It has a tuple as input. 
+It returns a new tuple as output, 
+such as every second element of the input tuple is skipped, starting with the first one.
+Put your testcases in main()
+Test-case:
 input_tuple (tuple): The input tuple to process.
 Returns:
     - tuple: A new tuple with every second element skipped.
